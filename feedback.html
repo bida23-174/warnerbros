@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros Feedback</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+    <script>
+    document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Thank you for your feedback!');
+        // Here, you can add code to handle form submission,
+        // like sending the data to a server or an API.
+    });
+    </script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header bg-dark text-white">
+                <h3>Feedback</h3>
+            </div>
+            <div class="card-body bg-dark text-white">
+                <form id="feedbackForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rating">Rating</label>
+                        <select class="form-control" id="rating" required>
+                            <option value="5">5 - Excellent</option>
+                            <option value="4">4 - Very Good</option>
+                            <option value="3">3 - Good</option>
+                            <option value="2">2 - Fair</option>
+                            <option value="1">1 - Poor</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea class="form-control" id="comments" rows="4" placeholder="Enter your comments" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-blue bg-dark text-white">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="follow-us">
+            <h5>Follow Us</h5>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://youtube.com/@warnerbrosentertainment?si=3xvMa2bX4Ay1FiS9" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </div>
+        </div>
+      
+            <p>&copy; 2024 Warner Bros. All rights reserved.</p>
+        </div>
+      </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

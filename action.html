@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTION</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menus.css">
+    <link rel="stylesheet" href="cards.css">
+</head>
+<style>
+    /* Style the navigation bar */
+    .navbar1 {
+        display: flex;
+        justify-content: space-around; /* Evenly distribute links */
+        background-color: black;
+        padding: 5px 0;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .navbar1 a {
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        flex: 1; /* Make all links take equal space */
+        text-align: center;
+    }
+    
+    /* Change the color of links on hover */
+    .navbar1 a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Style the active/current link */
+    .navbar1 a.active {
+        background-color: #666;
+        color: white;
+    }
+  </style>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-nav">
+        <img src="logo/warner_bros_logo.jpg" alt="Warner Bros Logo"> 
+        <nav class="navbar fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+            <ul class="menus" class="nav nav-underline">
+                <li><a class="navbar-brand" href="index.html">Home</a></li>
+                <li><a class="navbar-brand" href="movies.html">Movies</a></li>
+                <li><a class="navbar-brand" href="tv-shows.html">TV Shows</a></li>
+                <li><a class="navbar-brand" href="collections.html">Collections</a></li>
+                <li><a class="navbar-brand" href="games.html">Games</a></li>
+                <li><a class="navbar-brand" href="feedback.html">Feedback</a></li>
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="button">Search</button>
+                </div>
+            </ul>
+            </div>
+        </nav>
+        </div>
+    </div>
+    </header>
+    <div class="navbar1">
+        <a class="active" href="movies.html">All Movies</a>
+        <a href="action">Action</a>
+        <a href="animation.html">Animation</a>
+        <a href="horror.html">Horror</a>
+        <a href="comedy.html">Comedy</a>
+  </div>
+  
+<section>
+<main>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img src="movies/exam.jpg" alt="Movie Image 1">
+        <button class="play-button">&#9658;</button>
+        <div class="card-title">Exam</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="movies/escape-room.jpg" alt="Movie Image 2">
+        <button class="play-button">&#9658;</button>
+        <div class="card-title">Esacape Room</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="movies/level-16.jpg" alt="Movie Image 3">
+        <button class="play-button">&#9658;</button>
+        <div class="card-title">Level 16</div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card">
+          <img src="movies/old guard.jpg" alt="Movie Image 1">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Old Guard</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="movies/men-in-black.jpg" alt="Movie Image 2">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Men In Black</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="movies/reacher.jpg" alt="Movie Image 3">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Reacher</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="movies/topgun-maverick.jpg" alt="Movie Image 1">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Topgeun Maverick</div>
+        </div>
+      </div>
+  </div>
+</main>
+</section>
+
+<footer>
+  <div class="container">
+    <footer>
+      <div class="container">
+        <div class="follow-us">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://youtube.com/@warnerbrosentertainment?si=3xvMa2bX4Ay1FiS9" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </div>
+      </div>
+          <p>&copy; 2024 Warner Bros. All rights reserved.</p>
+      </div>
+</body>
+</html>

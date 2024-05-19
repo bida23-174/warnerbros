@@ -1,0 +1,50 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black ;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main {
+    padding: 10px 0;
+}
+
+section h2 {
+    margin-left: 50px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    padding: 20px;
+}
+footer .follow-us {
+    margin-bottom: 1rem;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: blue;
+}
+

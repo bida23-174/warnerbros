@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menus.css">
+    <link rel="stylesheet" href="cards.css">
+    <style>
+      .movie-banner {
+          display: flex;
+          align-items: flex-start;
+          padding: 20px;
+          background-color: auto;
+          width: 90%;
+          margin: 20px auto;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      .movie-image {
+          flex: 1;
+          max-width: 200px;
+          margin-right: 20px;
+          position: relative;
+      }
+      .movie-image img {
+          width: 100%;
+          border-radius: 8px;
+      }
+      .play-button1 {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: 10px;
+          transform: translate(-50%, -50%);
+          background-color: blue;
+          color: #fff;
+          border: none;
+          border-radius: 8px;
+          width: 150px;
+          height: 40px;
+          font-size: 18px;
+          cursor: pointer;
+          display: flex ;
+          justify-content: center;
+          align-items: center;
+        }
+      .movie-details {
+          flex: 2;
+      }
+      .movie-title {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 10px;
+      }
+      .movie-info {
+          font-size: 14px;
+          margin-bottom: 10px;
+      }
+      .movie-synopsis {
+          font-size: 14px;
+          margin-bottom: 10px;
+      }
+      .movie-cast,
+      .movie-director,
+      .movie-genre,
+      .movie-rating {
+          font-size: 14px;
+          margin-bottom: 5px;
+      }
+  </style>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+                <nav class="navbar fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="logo-nav">
+            <img src="logo/warner_bros_logo.jpg" alt="Warner Bros Logo"> 
+                <ul class="menus" class="nav nav-underline">
+                    <li><a class="navbar-brand" href="index.html">Home</a></li>
+                    <li><a class="navbar-brand" href="movies.html">Movies</a></li>
+                    <li><a class="navbar-brand" href="tv-shows.html">TV Shows</a></li>
+                    <li><a class="navbar-brand" href="collections.html">Collections</a></li>
+                    <li><a class="navbar-brand" href="games.html">Games</a></li>
+                    <li><a class="navbar-brand" href="feedback.html">Feedback</a></li>
+                    <div class="search">
+                        <input type="text" placeholder="Search...">
+                        <button type="button">Search</button>
+                    </div>
+                </ul>
+                </div>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <div class="movie-banner">
+      <div class="movie-image">
+          <img src="movies/dune.jpg" alt="Movie Poster">
+      </div>
+      <div class="movie-details">
+          <div class="movie-title">DUNE PART 2</div>
+          <div class="movie-info">Release Date: 01 March, 2024</div>
+          <div class="movie-info">Duration: 1 hour 5 minutes</div>
+          <div class="movie-synopsis">
+               Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he must prevent a terrible future only he can foresee. 
+          </div>
+          <div class="movie-cast">
+              <strong>Cast:</strong>
+              <ul>
+                  <li>Timothee Chalamet</li>
+                  <li>Zendaya</li>
+                  <li>Florence Pugh</li>
+              </ul>
+          </div>
+          <div class="movie-director"><strong>Director:</strong> Denis Villeneuve</div>
+          <div class="movie-genre"><strong>Genre:</strong> Sci-fi/Adventure</div>
+          <div class="movie-rating"><strong>Rating:</strong> ⭐⭐⭐⭐☆</div>
+          <a href="https://youtu.be/_YUzQa_1RCE?si=i9VFYDz5dWql-sg5/url" class="play-button1">&#9658; Play Trailer</a>
+      </div>
+  </div>
+  
+<section>
+<main>
+    <header>
+        <h2> TRENDING</h2>
+    </header>
+    <div class="row">
+        <div class="col">
+          <div class="card">
+            <img src="movies/enola-holmes.jpg" alt="Movie Image 1">
+            <button class="play-button">&#9658;</button>
+            <div class="card-title">Enola Holmes</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="movies/insidious.jpg" alt="Movie Image 2">
+            <button class="play-button">&#9658;</button>
+            <div class="card-title">Insidious</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="movies/dakota.jpg" alt="Movie Image 3">
+            <button class="play-button">&#9658;</button>
+            <div class="card-title">Dakota</div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="movies/the-end-of-the-fucking-world.jpg" alt="Movie Image 4">
+              <button class="play-button">&#9658;</button>
+              <div class="card-title"> The End Of The Fucking World</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="movies/mean-girls.jpg" alt="Movie Image 5">
+              <button class="play-button">&#9658;</button>
+              <div class="card-title">Mean Girls</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="movies/arcadian.jpg" alt="Movie Image 6">
+              <button class="play-button">&#9658;</button>
+              <div class="card-title">Arcardian</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="movies/knox.jpg" alt="Movie Image 7">
+              <button class="play-button">&#9658;</button>
+              <div class="card-title">Knox</div>
+            </div>
+          </div>
+
+        
+        <!-- Add more columns as needed -->
+    </div>
+      
+    <header>
+      <h2> COMING SOON</h2>
+  </header>
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <img src="movies/inside-out-2.jpg" alt="Movie Image 1">
+        <button class="play-button">&#9658;</button>
+        <div class="card-title">Inside Out 2</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="movies/joker.jpg" alt="Movie Image 2">
+        <button class="play-button">&#9658;</button>
+        <div class="card-title">Joker: Folie a Deux</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="movies/despicable-me.jpg" alt="Movie Image 3">
+        <button class="play-button">&#9658;</button>
+        <div class="card-title">Despicable Me</div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card">
+          <img src="movies/deadpool.jpg" alt="Movie Image 4">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Deadpool and Wolverine</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="movies/venom-3.jpg" alt="Movie Image 5">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Venom 3</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="movies/gladiator.jpg" alt="Movie Image 6">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Gladiator II</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="movies/bordelands.jpg" alt="Movie Image 7">
+          <button class="play-button">&#9658;</button>
+          <div class="card-title">Borderlands</div>
+        </div>
+      </div>
+    <!-- Add more columns as needed -->
+</div>
+</main>
+</section>
+
+<footer>
+    <div class="container">
+      <div class="follow-us">
+        <h5>Follow Us</h5>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://youtube.com/@warnerbrosentertainment?si=3xvMa2bX4Ay1FiS9" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </div>
+    </div>
+        <p>&copy; 2024 Warner Bros. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
